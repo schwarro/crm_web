@@ -1,0 +1,16 @@
+<h1>Contacts</h1>
+<h2>Here are all of the available contacts</h2>
+
+<ul>
+  <%@contacts.each do |contact| %>
+    <li><%=contact.first_name.capitalize%> <%=contact.last_name.capitalize%></li>
+    <ul>
+      <li><%=contact.email%></li>
+      <li><%=contact.note%></li>
+    </ul>
+  <%end%>
+</ul>
+
+
+<a href="/home">Home</a>
+<a href="/about">About Me</a>
