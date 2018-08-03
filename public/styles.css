@@ -42,3 +42,29 @@ footer p {
   padding: 10px;
   font-size: 1em;
 }
+
+.contact_header {
+  background-color: #FF7063;
+  padding: 15px;
+  margin: 25px;
+}
+
+.count {
+  border-bottom: 3px solid #00EAD3;
+}
+
+.contact_name {
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.complete_contact li {
+  background-color: #00EAD3;
+  padding-left: 15px;
+  margin: 0 25px;
+  list-style: none;
+}
+
+.tag {
+  padding-bottom: 15px;
+}
